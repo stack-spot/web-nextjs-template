@@ -1,0 +1,9 @@
+name: uxservices-web-nextjs-template
+description: Boilerplate NextJS
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: myapp
