@@ -1,1 +1,1 @@
-# web-nextjs-template
+# uxservices-web-nextjs-template
