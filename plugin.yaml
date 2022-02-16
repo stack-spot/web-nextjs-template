@@ -3,7 +3,7 @@ description: Boilerplate NextJS
 types:
   - app-template
 inputs:
-  - label: Project name
+  - label: "Project name(must not have spaces and be lowercase)"
     type: text
     name: project_name
     default: myapp

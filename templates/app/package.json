@@ -1,5 +1,5 @@
 {
-  "name": "app-next",
+  "name": "{{inputs.project_name|lower}}",
   "private": true,
   "scripts": {
     "dev": "next dev",
