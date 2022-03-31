@@ -1,0 +1,1 @@
+O **web-nextjs-template** adiciona um template Nextjs que facilita a construção de novos projetos seguindo um padrão definido.
