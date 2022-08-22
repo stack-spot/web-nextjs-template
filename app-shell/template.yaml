@@ -1,0 +1,9 @@
+name: app-shell
+description: Shell application
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
