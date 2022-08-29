@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 interface ButtonType {
   children: ReactNode
+  onClick?: () => void
 }
 
 const StyledButton = styled.button`
@@ -13,8 +14,8 @@ const StyledButton = styled.button`
   border: none;
 `
 
-const Button = ({ children }: ButtonType) => {
-  return <StyledButton>{children}</StyledButton>
+const Button = ({ children, onClick }: ButtonType) => {
+  return <StyledButton onClick={onClick}>{children}</StyledButton>
 }
 
 export default Button

@@ -1,5 +1,5 @@
 {
-  "name": "shared",
+  "name": "@{{inputs.project_name}}/shared",
   "version": "0.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
@@ -8,6 +8,7 @@
     "lint": "eslint *.ts*"
   },
   "dependencies": {
+    "@citric/core": "^0.0.34",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {

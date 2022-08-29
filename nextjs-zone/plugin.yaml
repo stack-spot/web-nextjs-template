@@ -1,0 +1,42 @@
+name: nextjs-zone
+description: Create a zone nextjs application
+display-name: nextjs-zone
+picture: plugin.png
+category: frontend
+compatibility:
+  - NextJs
+  - MutiZones app
+  - Typescript
+about: docs/about.md
+usage: docs/usage.md
+use-case: docs/use-case.md
+implementation: docs/implementation.md
+technologies:
+  - 'Typescript'
+types:
+  - app
+inputs:
+  - label: App name zone
+    type: text
+    name: zone_name
+    default: appZone
+    required: true
+  - label: Zone run port
+    type: int
+    name: zone_port
+    default: 3000
+    required: true
+  - label: Zone base path
+    type: text
+    name: zone_base_path
+    default: 'app-path'
+    required: true
+hooks:
+  - type: edit
+    trigger: after-render
+    path: apps/{{global_computed_inputs.shell_project_name}}-shell/next.config.js
+    changes:
+      - search:
+          pattern: (return \[)
+          insert-after:
+            snippet: snippet/rewrite.js
