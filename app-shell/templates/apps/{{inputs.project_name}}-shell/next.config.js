@@ -1,14 +1,19 @@
-const withTM = require('next-transpile-modules')(['@{{inputs.project_name}}/shared'])
+/* eslint-disable @typescript-eslint/no-var-requires */
+const path = require('path')
 
 /**
  * @type {import('next').NextConfig}
  **/
 const nextConfig = {
+  output: 'standalone',
   images: {
     domains: [
     ]
   },
-  reactStrictMode: true,
+  experimental: {
+    externalDir: true,
+    outputFileTracingRoot: path.join(__dirname, '../../')
+  },
   env: {
   },
   pageExtensions: [
@@ -24,4 +29,4 @@ const nextConfig = {
   }
 }
 
-module.exports = withTM(nextConfig)
+module.exports = nextConfig
