@@ -7,8 +7,5 @@ inputs:
     type: text
     name: project_name
     default: project-name
-category: frontend
-technologies:
-  - 'Typescript'
 global-computed-inputs:
   shell_project_name: '{{project_name}}'

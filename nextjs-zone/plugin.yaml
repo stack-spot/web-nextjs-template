@@ -2,7 +2,9 @@ name: nextjs-zone
 description: Create a zone nextjs application
 display-name: nextjs-zone
 picture: plugin.png
-category: frontend
+category: Front-end
+technologies:
+  - Typescript
 compatibility:
   - NextJs
   - MutiZones app
@@ -11,8 +13,6 @@ about: docs/about.md
 usage: docs/usage.md
 use-case: docs/use-case.md
 implementation: docs/implementation.md
-technologies:
-  - 'Typescript'
 types:
   - app
 inputs:

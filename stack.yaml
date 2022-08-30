@@ -2,12 +2,9 @@ description: NextJs stack
 name: orgs-matter-web-nextjs
 display-name: orgs-matter-web-nextjs
 picture: stack.png
-category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
-compatibility: # Put a list of technologies compatible with the stack
-  - java
-  - spring
-technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
-  - docker 
+category: Front-end
+technologies:
+  - Typescript
 about: docs/about.md
 use-cases:
   - title: Use Case Title
