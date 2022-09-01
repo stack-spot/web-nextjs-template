@@ -2,7 +2,7 @@ name: nextjs-zone
 description: Create a zone nextjs application
 display-name: nextjs-zone
 picture: plugin.png
-category: Front-end
+category: Frontend
 technologies:
   - Typescript
 compatibility:

@@ -1,0 +1,10 @@
+{
+  "horusecCliFilesOrPathsToIgnore": [
+    "**/{{inputs.project_name}}-shell/package.json",
+    "**/{{inputs.zone_name}}/package.json"
+  ],
+  "horusecCliRiskAcceptHashes": [
+    "c3040bb42cb0524fdcb55d9a0f85ad4cb7a7e66ca7fc7730477b3dec44274fff",
+    "d3e89c96f66900a8f65384cb40df3534ec1c612d896a318484228654039bfe7c"
+  ]
+}

@@ -2,7 +2,7 @@ description: NextJs stack
 name: orgs-matter-web-nextjs
 display-name: orgs-matter-web-nextjs
 picture: stack.png
-category: Front-end
+category: Frontend
 technologies:
   - Typescript
 about: docs/about.md
