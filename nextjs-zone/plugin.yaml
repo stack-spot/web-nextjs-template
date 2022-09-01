@@ -6,8 +6,6 @@ category: Frontend
 technologies:
   - Typescript
 compatibility:
-  - NextJs
-  - MutiZones app
   - Typescript
 about: docs/about.md
 usage: docs/usage.md
