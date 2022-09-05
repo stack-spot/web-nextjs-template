@@ -1,6 +1,6 @@
-A Stack **orgs-matter-web-nextjs** provê Templates e Plugins para a inicialização e o desenvolvimento de projetos **NextJs** **monorepo** com **turbo**. 
+A Stack **orgs-matter-web-nextjs** provê Templates e Plugins para a inicialização e o desenvolvimento de projetos **NextJs** **monorepo** com **turbo**.
 
-A Stack vem preparada para o desenvolvimento de aplicações **`microfrontend`**, utilizando o **`multi zones`**. 
+A Stack vem preparada para o desenvolvimento de aplicações **`microfrontend`**, utilizando o **`multi zones`**.
 
 Para atingir o objetivo de prover a inicialização rápida de projetos multizones, a Stack **orgs-matter-web-nextjs** disponibiliza o template:
 
@@ -8,20 +8,21 @@ Para atingir o objetivo de prover a inicialização rápida de projetos multizon
 
 ### **Visão Geral**
 
-O template ***app-shell** cria um projeto **NextJS** na versão 12.2.5 com o React 17.0.2 pronto para o desenvolvimento de aplicações web. O template é instalado com a biblioteca do **Citric** que é o design system da StackSpot. 
+O template **app-shell** cria um projeto **NextJS** na versão 12.2.5 com o React 17.0.2 pronto para o desenvolvimento de aplicações web. O template é instalado com a biblioteca do **Citric** que é o design system da StackSpot.
 
 Este projeto é preparado para a escrita e execução de testes unitários por meio das bibliotecas **Jest** e **Testing Library**. O projeto também tem o **`eslint`** e o **`prettier`** já configurados para garantir a padronização de escrita de código entre os desenvolvedores.
 
 ### Pré-requisitos
-Para utilizar este template, é preciso ter instalado na sua máquina os itens abaixo:  
+
+Para utilizar este template, é preciso ter instalado na sua máquina os itens abaixo:
 
 - Ter o [**STK CLI**](https://stackspot.com.br/) baixado;
-- NodeJS;  
+- NodeJS;
 - Yarn ou NPM;
 
 ## Execução do projeto criado
 
-1. Depois de criar o projeto, acesse o diretório do projeto criado e execute um dos comandos abaixo:  
+1. Depois de criar o projeto, acesse o diretório do projeto criado e execute um dos comandos abaixo:
 
 ```bash
     yarn
@@ -31,7 +32,7 @@ Para utilizar este template, é preciso ter instalado na sua máquina os itens a
     npm install
 ```
 
-2. Após instalar as dependências do projeto, execute um dos comandos para executar o projeto:  
+2. Após instalar as dependências do projeto, execute um dos comandos para executar o projeto:
 
 ```bash
     yarn dev
@@ -43,7 +44,7 @@ Para utilizar este template, é preciso ter instalado na sua máquina os itens a
 
 3. Depois de executar o projeto, abra o browser em `http://localhost:3000`
 
-4. Para realizar a execução dos testes unitários, execute um dos comandos abaixo:  
+4. Para realizar a execução dos testes unitários, execute um dos comandos abaixo:
 
 ```bash
 yarn test

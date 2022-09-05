@@ -1,12 +1,12 @@
-description: NextJs stack
+description: Next.js stack para aplicações multizonas com monorepo utilizando o turbo
 name: orgs-matter-web-nextjs
 display-name: orgs-matter-web-nextjs
-picture: stack.png
+picture: NextJsLogo.jpg
 category: Frontend
 technologies:
   - Typescript
 about: docs/about.md
 use-cases:
-  - title: Use Case Title
+  - title: Criar aplicação Next.js com turbo
     content: docs/use-case.md
     stackfile: stackfiles/default.yaml
