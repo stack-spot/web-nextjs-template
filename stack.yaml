@@ -1,6 +1,6 @@
 description: Next.js stack para aplicações multizonas com monorepo utilizando o turbo
-name: orgs-matter-web-nextjs
-display-name: orgs-matter-web-nextjs
+name: matter-web-nextjs
+display-name: matter-web-nextjs
 picture: NextJsLogo.jpg
 category: Frontend
 technologies:

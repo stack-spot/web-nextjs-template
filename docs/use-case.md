@@ -1,8 +1,8 @@
-A Stack **orgs-matter-web-nextjs** provê Templates e Plugins para a inicialização e o desenvolvimento de projetos **NextJs** **monorepo** com **turbo**.
+A Stack **matter-web-nextjs** provê Templates e Plugins para a inicialização e o desenvolvimento de projetos **NextJs** **monorepo** com **turbo**.
 
 A Stack vem preparada para o desenvolvimento de aplicações **`microfrontend`**, utilizando o **`multi zones`**.
 
-Para atingir o objetivo de prover a inicialização rápida de projetos multizones, a Stack **orgs-matter-web-nextjs** disponibiliza o template:
+Para atingir o objetivo de prover a inicialização rápida de projetos multizones, a Stack **matter-web-nextjs** disponibiliza o template:
 
 1. O **app-shell**, que cria uma aplicação **NextJS** com o **Turbo**. O template gera uma pasta de `packages` com três pastas: uma para configuração de eslint, uma para configurações de tsconfig e uma de shared que pode ser utilizada para shared components. Além disso, na pasta `apps` uma aplicação nextjs é gerada;
 

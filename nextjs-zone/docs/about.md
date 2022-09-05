@@ -1,4 +1,4 @@
-O plugin **nextjs-zone** adiciona na aplicação criada pela stack **orgs-matter-web-nextjs** uma nova zona já configurada.
+O plugin **nextjs-zone** adiciona na aplicação criada pela stack **matter-web-nextjs** uma nova zona já configurada.
 
 Ao aplicar o plugin, serão solicitadas algumas informações para a criação da zona. Essas informações são:
 
