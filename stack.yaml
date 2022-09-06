@@ -10,3 +10,5 @@ use-cases:
   - title: Criar aplicação Next.js com turbo
     content: docs/use-case.md
     stackfile: stackfiles/default.yaml
+  - title: Task para atualizar o .env
+    content: docs/use-case-task.md

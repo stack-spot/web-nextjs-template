@@ -9,3 +9,8 @@ inputs:
     default: project-name
 global-computed-inputs:
   shell_project_name: '{{project_name}}'
+hooks:
+  - type: run
+    trigger: after-render
+    commands:
+      - stk run update-env

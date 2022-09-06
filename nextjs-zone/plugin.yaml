@@ -38,3 +38,7 @@ hooks:
           pattern: (return \[)
           insert-after:
             snippet: snippet/rewrite.js
+  - type: run
+    trigger: after-render
+    commands:
+      - stk run update-env

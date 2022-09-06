@@ -1,6 +1,5 @@
 Após aplicar o plugin, instale as dependências:
 
-
 ```bash
     yarn
 ```
@@ -9,11 +8,7 @@ Após aplicar o plugin, instale as dependências:
     npm install
 ```
 
-O plugin atualiza automaticamente o seu arquivo .env.template com a variável de ambiente correspondente a essa nova zona. Copie essa variável e adicione ao seu .env. 
-
-
-> **Atenção**: Caso você esqueça de adicionar a variável da zona que acabou de ser criada no .env, a aplicação não vai funcionar corretamente. Lembre-se que caso a aplicação já esteja rodando, é necessário parar a execução e rodar novamente!
-
+O plugin atualiza automaticamente o seu arquivo .env.template e o .env com a variável de ambiente correspondente a essa nova zona.
 
 Por fim, basta executar a aplicação com um dos comandos:
 

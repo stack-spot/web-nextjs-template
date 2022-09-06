@@ -13,22 +13,22 @@ async function updateEnv() {
   let envFile
   try {
     envFile = await fs.readFile('./.env', { encoding: 'utf8' })
-    envFile =  envFile.split(/\r?\n/)
-  } catch { }
+    envFile = envFile.split(/\r?\n/)
+  } catch {}
 
-  if(fileContent) {
+  if (fileContent) {
     const linesToAdd = fileContent.filter((line) => {
-      return !envFile || envFile.indexOf(line) === -1
+      const key = line.split('=')
+      return !envFile || !envFile.some((item) => item.includes(key[0]))
     })
-    fs.writeFile('./.env', linesToAdd.join('\r\n'), { flag: 'a' }, err => {
+    fs.writeFile('./.env', linesToAdd.join('\r\n'), { flag: 'a' }, (err) => {
       if (err) {
-        console.error(err);
-      } else{
+        console.error(err)
+      } else {
         console.log('File .env updated.')
       }
     })
   }
-
 }
 
 updateEnv()
