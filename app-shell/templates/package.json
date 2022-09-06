@@ -1,5 +1,5 @@
 {
-  "name": "{{inputs.project_name|to_kebab}}",
+  "name": "{{inputs.project_name}}",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -19,7 +19,7 @@
     "@types/jest": "^27.4.0",
     "@types/styled-components": "^5.1.22",
     "env-cmd": "^10.1.0",
-    "eslint-config-custom": "*",
+    "@{{inputs.project_name}}/eslint": "*",
     "jest": "^27.5.1",
     "jest-styled-components": "^7.0.8",
     "prettier": "latest",

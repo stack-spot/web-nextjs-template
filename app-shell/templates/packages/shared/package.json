@@ -15,9 +15,9 @@
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "eslint": "^7.32.0",
-    "eslint-config": "*",
+    "@{{inputs.project_name}}/eslint": "*",
     "react": "^17.0.2",
-    "tsconfig": "*",
+    "@{{inputs.project_name}}/tsconfig": "*",
     "typescript": "^4.5.2"
   }
 }
