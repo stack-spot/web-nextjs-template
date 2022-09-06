@@ -1,5 +1,5 @@
 {
-  "name": "{{inputs.project_name}}-shell",
+  "name": "shell",
   "version": "0.0.0",
   "private": true,
   "scripts": {

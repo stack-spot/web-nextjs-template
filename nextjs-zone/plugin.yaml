@@ -32,7 +32,7 @@ inputs:
 hooks:
   - type: edit
     trigger: after-render
-    path: apps/{{global_computed_inputs.shell_project_name}}-shell/next.config.js
+    path: apps/shell/next.config.js
     changes:
       - search:
           pattern: (return \[)
