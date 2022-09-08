@@ -1,5 +1,5 @@
 name: nextjs-zone
-description: Create a zone nextjs application
+description: Cria um nova zona em uma aplicação next.js com monorepo.
 display-name: nextjs-zone
 picture: NextJsLogoInverted.png
 category: Frontend
