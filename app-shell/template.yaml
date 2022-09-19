@@ -8,7 +8,7 @@ inputs:
     name: project_name
     default: project-name
 global-computed-inputs:
-  shell_project_name: '{{project_name}}'
+  shell_project_name: "{{project_name}}"
 hooks:
   - type: run
     trigger: after-render
